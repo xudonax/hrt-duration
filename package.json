@@ -24,8 +24,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js --mode='production'",
     "debug": "webpack --config webpack.config.js --mode='development'",
-    "style": "sass --source-map --color --load-path=node_modules --style=compressed src/sass/index.scss dist/style.css",
-    "style-debug": "sass --source-map --color --load-path=node_modules src/sass/index.scss dist/style.css"
+    "style": "sass --source-map --color --load-path=node_modules --style=compressed src/sass/index.scss docs/style.css",
+    "style-debug": "sass --source-map --color --load-path=node_modules src/sass/index.scss docs/style.css"
   },
   "repository": {
     "type": "git",
